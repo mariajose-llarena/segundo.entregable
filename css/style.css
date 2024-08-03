@@ -21,6 +21,14 @@ body {
 }
 
 
+
+
+
+    .primerImagen {
+        max-width: 100%; /* La imagen no excederá el ancho del contenedor */
+        height: auto; /* Mantiene la proporción de la imagen */
+    }
+    
 .container {
     max-width: 800px;
     margin: 20px auto;
