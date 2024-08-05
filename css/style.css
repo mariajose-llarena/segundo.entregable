@@ -300,7 +300,7 @@ button:hover {
 }
 
 .footer-section {
-    width: 25%; /* Ancho de cada sección */
+    width: auto; /* Ancho de cada sección */
 }
 
 .footer-section h2 {
@@ -317,6 +317,7 @@ button:hover {
 .footer-section a {
     color: rgb(233, 233, 233); /* Color de los enlaces */
     text-decoration: none; /* Sin subrayado en los enlaces */
+    width: auto;
 }
 
 .footer-section a:hover {
