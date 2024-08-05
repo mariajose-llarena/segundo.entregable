@@ -16,7 +16,7 @@ body {
 }
 
 .logo-gestoria {
-    width: 30%; 
+    width: 60%; 
     height: auto; 
 }
 
@@ -288,36 +288,38 @@ button:hover {
 
 
 
-
 .footer {
     background-color: #03773d; 
-    padding: 10px 0; /* Espaciado superior e inferior */
+    padding: 20px 0; 
+    text-align: center; 
 }
 
 .footer-container {
     display: flex; /* flexbox para organizar las secciones */
-  
+    justify-content: center; /* Use el justify content para centrar */
+    align-items: flex-start; /* Alinie los items con align */
+    flex-wrap: wrap; /* le ponemos wrap para que al utilizar pantallas grandes este alineado */
+    gap: 20px; /* y le damos un gap a las secciones */
 }
 
 .footer-section {
     width: auto; /* Ancho de cada sección */
+    max-width: 250px; /* Máximo ancho para evitar que las secciones sean demasiado anchas */
 }
 
 .footer-section h2 {
-    margin-bottom: 2px; /* Espacio debajo del título */
+    margin-bottom: 10px; /* Espacio debajo del título aumentado */
 }
 
 .footer-section p,
 .footer-section ul {
-    margin: 5px 0; 
+    margin: 10px 0; /* Espacio aumentado entre párrafos y listas */
     color: rgb(233, 233, 233);
-
 }
 
 .footer-section a {
     color: rgb(233, 233, 233); /* Color de los enlaces */
     text-decoration: none; /* Sin subrayado en los enlaces */
-    width: auto;
 }
 
 .footer-section a:hover {
@@ -331,11 +333,10 @@ button:hover {
 
 .social-links li {
     display: inline; /* Mostrar enlaces en línea */
-    margin-right: 50px; /* Espacio entre los enlaces sociales */
+    margin-right: 15px; /* Espacio entre los enlaces sociales reducido */
 }
 
 .footer-bottom {
-    text-align: center; /* Centrar el texto del copyright */
     margin-top: 30px; /* Espacio superior para el copyright */
 }
 
