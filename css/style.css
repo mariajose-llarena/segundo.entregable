@@ -8,6 +8,14 @@
 }
 
 
+
+
+/*barra de navegacion*/
+
+
+
+
+
 body {
      background-color: rgb(244, 244, 244);
      font-family: "Lato-Regular";
@@ -17,10 +25,9 @@ body {
 
 .logo-gestoria {
     width: 60%; 
-    height: auto; 
+    height: auto;
+ 
 }
-
-
 
 
 
@@ -29,24 +36,32 @@ body {
         height: auto; /* Mantiene la proporción de la imagen */
     }
     
-.container {
-    max-width: 800px;
+.intro{
+
+    padding: 4%;
+    margin: 0%;
+}
+
+
+.container {/*caja de nosotros*/
+    max-width: 1000px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
-    border-radius: 10px;
-
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+ box-shadow: 0 2px 4px #03773d;
 }
 
 
 h2 {
     text-align: center;
+    
+    
       
 }
 
 .subtitulo.h2{
-    font-weight: bold;
+    font-weight:bold; 
 }
 
 
@@ -88,8 +103,6 @@ h1 {
 }
 
 
-
-
     
 header{
     background-color: #03773d;
@@ -97,8 +110,8 @@ header{
     
 }
 h1{
-    font-family:"Lato-Regular";
-    color: black;
+    font-ly:"Lato-Regular";
+    color: famiblack;
     padding: 0px;
 }
 
@@ -204,6 +217,14 @@ padding: 20px ;
 .section-img img{
     border-radius: 20px;
 }
+
+
+/*ciudadania española*/
+
+
+
+
+
 
 .c-espanola{
     text-align: center;
@@ -337,7 +358,9 @@ button:hover {
 }
 
 .footer-bottom {
-    margin-top: 30px; /* Espacio superior para el copyright */
+    margin-top: 20px; /* Espacio superior para el copyright */
+    background-color: rgba(255, 255, 255, 0.966) ;
+    padding: 5px;
 }
 
 
