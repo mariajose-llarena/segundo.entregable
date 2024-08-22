@@ -9,8 +9,39 @@
 
 
 
+/*imagen principal*/
 
-/*barra de navegacion*/
+
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(244, 244, 244);
+    font-family: "Lato-Regular";
+   margin: 0;
+   
+}
+.section-img-bandera {
+    display: flex; /* Usar flexbox para alinear elementos */
+    align-items: center; /* Centrar verticalmente */
+   
+    padding: 10px;
+    border-radius:4px; /* Bordes redondeados */
+}
+.primerImagen {
+    width: 700px; /* Ancho específico de la imagen */
+    height: auto; /* Mantener la proporción de la imagen */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+.intro {
+    flex-grow: 1; /* Permitir que el texto ocupe el espacio restante */
+}
+
+
+
+
+
+
 
 
 
@@ -42,14 +73,14 @@ body {
     margin: 0%;
 }
 
-
-.container {/*caja de nosotros*/
+/*caja de nosotros*/
+.container {
     max-width: 1000px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
- box-shadow: 0 2px 4px #03773d;
+ box-shadow: 0 2px 4px #03773d;;
 }
 
 
@@ -62,6 +93,7 @@ h2 {
 
 .subtitulo.h2{
     font-weight:bold; 
+
 }
 
 
@@ -79,6 +111,12 @@ h1 {
     margin-bottom: 20px; /* Espacio debajo del título */
 }
 
+
+
+/*SERVICIOS*/
+
+
+
 .services-list {
     display: flex;
     flex-direction: column; /* Coloca los enlaces en una columna */
@@ -87,9 +125,10 @@ h1 {
 
 .service {
     
-    background-color:#03773d; /* Color de fondo inicial */
-    color: white; /* Color del texto */
-    padding: 15px 20px; /* Espaciado interno */
+    background-color:#03773d; 
+    text-align: center;
+    color: white; 
+    padding: 15px 20px; 
     text-decoration: none; /* Sin subrayado para enlaces */
     border-radius: 5px; /* Bordes redondeados */
     transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave para el color de fondo y transformación */
@@ -110,8 +149,8 @@ header{
     
 }
 h1{
-    font-ly:"Lato-Regular";
-    color: famiblack;
+    font-family:"Lato-Regular";
+    color: black;
     padding: 0px;
 }
 
@@ -167,9 +206,6 @@ nav ul li a:hover{
     color:#03773d;
     border: black;
     background-color: #03773d;
-/*hover es el momento cuando paso el mouse sobre el elemento:es una pseudo clase*/
-
-
 }
 
 .container {
@@ -183,19 +219,35 @@ nav ul li a:hover{
     margin-right: 20px; /* Espacio entre la imagen y el texto */
 }
 
-.text {
-    max-width: 1000px; /* Ancho máximo para el texto */
+/*texto de nosotros*/
+
+/*texto de nosotros pagina*/
+.conteiner.nos{
+    display: flex;
+    align-items: center;
+    
 }
 
-
-
-
+.text-nos{
+    max-width: 2000px;
+    text-align: justify;
+    text-align: center;
+    font-size: 20px; 
+    line-height: 1.5; /* Altura de línea para mejorar la legibilidad */
+}
 .subtitulo{
-    color: black;
+    color: rgb(0, 0, 0);
         text-align: center ;
     padding: 22px;
+    font-weight: bolder;
 
 }
+
+/*pagina nosotros*/
+.pag-nos{
+    color: #03773d;
+}
+
 
 .intro{
 
@@ -221,18 +273,11 @@ padding: 20px ;
 
 /*ciudadania española*/
 
-
-
-
-
-
 .c-espanola{
     text-align: center;
     
 }
-.c-espanola img{
-    width: 400px;
-}
+
 
 .linea {
     margin-bottom: 10px;
@@ -242,13 +287,7 @@ padding: 20px ;
     text-align: center;
 }
 
-.c-taliana img{
-    width: 400px;
-}
 
-.c-italiana img{
-    width: 450px;
-}
 
 .form{
     text-align: center;
@@ -336,6 +375,7 @@ button:hover {
 .footer-section ul {
     margin: 10px 0; /* Espacio aumentado entre párrafos y listas */
     color: rgb(233, 233, 233);
+    list-style-type: none;
 }
 
 .footer-section a {
@@ -354,15 +394,13 @@ button:hover {
 
 .social-links li {
     display: inline; /* Mostrar enlaces en línea */
-    margin-right: 15px; /* Espacio entre los enlaces sociales reducido */
+    margin-right: 5px; /* Espacio entre los enlaces sociales reducido */
 }
 
 .footer-bottom {
-    margin-top: 20px; /* Espacio superior para el copyright */
-    background-color: rgba(255, 255, 255, 0.966) ;
-    padding: 5px;
+    margin-top: 0px; 
+    padding: 0px;
 }
-
 
 
 
